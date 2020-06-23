@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen_2">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="60dp"/>
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="240dp"/>
+
+    <TextView
+        android:id="@+id/upload_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload URL:https://console.firebase.google.com/u/0/project/project1-9f8ac/storage/project1-9f8ac.appspot.com/files"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="5dp"/>
+
+</RelativeLayout>

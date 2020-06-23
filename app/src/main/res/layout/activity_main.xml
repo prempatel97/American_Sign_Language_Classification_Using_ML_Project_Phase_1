@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp"
+        android:inputType="text"
+        android:hint="Enter your Name" />
+
+    <EditText
+        android:id="@+id/asu_id"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="160dp"
+        android:inputType="text"
+        android:hint="Enter your ASU_ID" />
+
+    <EditText
+        android:id="@+id/group_id"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="230dp"
+        android:inputType="text"
+        android:hint="Enter your Group ID" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="300dp"
+        android:onClick="onClick"
+        android:text="Submit" />
+
+</RelativeLayout>

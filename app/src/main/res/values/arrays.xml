@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "spinnerItems">
+        <item>Gift</item>
+        <item>Car</item>
+        <item>Pay</item>
+        <item>Pet</item>
+        <item>Sell</item>
+        <item>Explain</item>
+        <item>That</item>
+        <item>Book</item>
+        <item>Now</item>
+        <item>Work</item>
+        <item>Total</item>
+        <item>Trip</item>
+        <item>Future</item>
+        <item>Good</item>
+        <item>Thank you</item>
+        <item>Learn</item>
+        <item>Agency</item>
+        <item>Should</item>
+        <item>Like</item>
+        <item>Movie</item>
+    </string-array>
+</resources>
